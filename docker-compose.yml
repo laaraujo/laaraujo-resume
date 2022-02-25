@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  flask-resume:
+    container_name: flask-resume
+    build: .
+    command: "python app.py"
+    volumes:
+      - ./src:/code
+    ports:
+      - "5000:5000"
