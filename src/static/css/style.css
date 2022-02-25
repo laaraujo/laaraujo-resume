@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root,
+:root.dark {
+  --font-color: #EEEEEE;
+  --primary-color: #222831;
+  --navbar-bg-color: rgba(20, 23, 29, 0.5);
+  --secondary-color: #393E46;
+  --accent-color: #00ADB5;
+}
+:root.light {
+  --font-color: #222831;
+  --primary-color: #EEEDDE;
+  --navbar-bg-color: rgba(255, 255, 248, 0.5);
+  --secondary-color: #393E46;
+  --accent-color: #f4c57d;
+}
+
+
+
+.theme-btn {
+  background-color: var(--primary-color);
+}
+
+
+.theme-btn.dark {
+  display: none;
+}
+ 
+.light .theme-btn.dark {
+  display: block;
+  background-color: var(--primary-color);
+}
+ 
+.light .theme-btn.light {
+  display: none;
+}
+
+
+html * {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  padding-top: 10rem;
+}
+
+#resume-navbar {
+  background-color: var(--navbar-bg-color) !important;
+  backdrop-filter: blur(4px);
+}
+
+html *, .navbar-brand, .nav-link, .navbar-toggler {
+  color: var(--font-color) !important
+}
+
+.navbar-toggler {
+  border-color: var(--font-color) !important;
+}
+
+.navbar {
+  background-image: none;
+}
+
+th {
+  white-space: nowrap;
+}
+
+#resume-button {
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.index-section, .resume-section {
+  margin-bottom: 4rem;
+}
+
+.index-section h2, .resume-section h2 {
+  text-decoration: underline 3px var(--secondary-color);
+  text-underline-offset: 3px;
+  margin-bottom: 2rem;
+}
+
+#footer {
+  text-align: center;
+  
+}
+
+#footer div{
+  color: var(--secondary-color) !important;
+  padding: 1rem;
+}
+
+#footer div span{
+  color: var(--secondary-color) !important;
+}
+
+.smaller-container {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.bio-item {
+  margin-bottom: 0.5rem;
+  padding-left: 3.4em;
+  text-indent: -3.4em;
+}
+
+.bio-item span {
+  font-weight: bold;
+  margin-right: 1rem
+}
+
+.tool {
+  background-color:var(--accent-color);
+  padding: 3px 7px 3px 7px;
+  /* margin-right: 0.2rem; */
+  margin: .1rem;
+  display: inline-block;
+  line-height:1.4em;
+  color: var(--primary-color);
+  border-radius: .1rem;
+  font-size: 1rem;
+}
+
+.exp-title, .exp-tools, .exp-description, .exp-highlights, .exp-sub-title{
+  margin-bottom: 2rem;
+}
+
+
+.exp{
+  margin-bottom: 5rem;
+}

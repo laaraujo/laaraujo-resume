@@ -1,0 +1,25 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="resume-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#" x-on:click="showResume = false">laaraujo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" x-on:click="showResume = true">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" target="_blank"><i class="fa-brands fa-github"></i> Source</a>
+        </li>
+        <li class="nav-item">
+          <button class='btn theme-btn light' onclick="setTheme('light')" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" title="Turn on the lights"><i class="fa-solid fa-lightbulb"></i></button>
+          <button class='btn theme-btn dark' onclick="setTheme('dark')" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" title="Turn off the lights"><i class="fa-solid fa-lightbulb"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
