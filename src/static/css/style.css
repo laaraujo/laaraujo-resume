@@ -131,3 +131,13 @@ th {
 .exp{
   margin-bottom: 5rem;
 }
+
+
+.nav-item:hover .nav-link {
+  text-decoration: underline 1px var(--secondary-color);
+  text-underline-offset: 1px;
+}
+
+.nav-item:hover .fa-lightbulb {
+  font-weight: 100;
+}
