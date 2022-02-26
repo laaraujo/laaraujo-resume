@@ -41,7 +41,7 @@ html * {
 
 body {
   background-color: var(--primary-color);
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 
 #resume-navbar {
@@ -158,4 +158,8 @@ th {
 .social-item:hover a span{
   text-decoration: underline 1px var(--secondary-color);
   text-underline-offset: 1px;
+}
+
+#pic {
+  border: .1rem solid var(--font-color)
 }
