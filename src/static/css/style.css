@@ -7,6 +7,7 @@
   --navbar-bg-color: rgba(20, 23, 29, 0.5);
   --secondary-color: #393E46;
   --accent-color: #00ADB5;
+  --secondary-accent-color: #0082b5;
 }
 :root.light {
   --font-color: #222831;
@@ -14,6 +15,7 @@
   --navbar-bg-color: rgba(255, 255, 248, 0.5);
   --secondary-color: #393E46;
   --accent-color: #f4c57d;
+  --secondary-accent-color: #f0b154;
 }
 
 
@@ -72,6 +74,10 @@ th {
   border: none;
 }
 
+#resume-button:hover, .tool:hover{
+  background-color: var(--secondary-accent-color)
+}
+
 .index-section, .resume-section {
   margin-bottom: 4rem;
 }
@@ -121,6 +127,7 @@ th {
   color: var(--primary-color);
   border-radius: .1rem;
   font-size: 1rem;
+  cursor: default;
 }
 
 .exp-title, .exp-tools, .exp-description, .exp-highlights, .exp-sub-title{
@@ -140,4 +147,21 @@ th {
 
 .nav-item:hover .fa-lightbulb {
   font-weight: 100;
+}
+
+.social-item a span {
+  margin-left: 1rem;
+}
+
+.social-item a {
+    text-decoration: none;
+}
+
+.social-item {
+  padding: .3rem;
+}
+
+.social-item:hover a span{
+  text-decoration: underline 1px var(--secondary-color);
+  text-underline-offset: 1px;
 }
