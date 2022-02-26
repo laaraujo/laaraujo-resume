@@ -18,12 +18,9 @@
   --secondary-accent-color: #f0b154;
 }
 
-
-
 .theme-btn {
   background-color: var(--primary-color);
 }
-
 
 .theme-btn.dark {
   display: none;
@@ -37,7 +34,6 @@
 .light .theme-btn.light {
   display: none;
 }
-
 
 html * {
   font-family: 'Poppins', sans-serif;
@@ -134,11 +130,9 @@ th {
   margin-bottom: 2rem;
 }
 
-
 .exp{
   margin-bottom: 5rem;
 }
-
 
 .nav-item:hover .nav-link {
   text-decoration: underline 1px var(--secondary-color);
