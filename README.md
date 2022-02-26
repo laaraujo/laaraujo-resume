@@ -14,4 +14,4 @@ Quick and small project I made in a couple hours of free time, mostly trying to 
 
 MIT License
 
-* Feel free to just fork it and use it if you like it. Just make sure to leave a star.
+* Feel free to just fork it and use it if you like it. Just make sure to leave a star and remove [my picture](/src/static/img/chilling_with_cats.jpg)
