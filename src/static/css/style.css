@@ -46,7 +46,7 @@ body {
 
 #resume-navbar {
   background-color: var(--navbar-bg-color) !important;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(7px);
 }
 
 html *, .navbar-brand, .nav-link, .navbar-toggler {
@@ -162,4 +162,8 @@ th {
 
 #pic {
   border: .1rem solid var(--font-color)
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
 }
