@@ -137,6 +137,11 @@ th {
 .nav-item:hover .nav-link {
   text-decoration: underline 1px var(--secondary-color);
   text-underline-offset: 1px;
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .nav-item:hover .fa-lightbulb {
@@ -166,4 +171,9 @@ th {
 
 .navbar-brand:hover {
   transform: scale(1.1);
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
