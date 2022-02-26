@@ -115,7 +115,6 @@ th {
 .tool {
   background-color:var(--accent-color);
   padding: 3px 7px 3px 7px;
-  /* margin-right: 0.2rem; */
   margin: .1rem;
   display: inline-block;
   line-height:1.4em;
