@@ -1,6 +1,6 @@
 # laaraujo-resume
 
-http://www.laaraujo.me/
+https://laaraujo.me/
 
 Quick and small project I made in a couple hours of free time, mostly trying to have a production-ready web resume with minimal code.
 
